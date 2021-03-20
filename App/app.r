@@ -1,7 +1,3 @@
-# More info:
-#   https://github.com/jcheng5/googleCharts
-# Install:
-#   devtools::install_github("jcheng5/googleCharts")
 library(googleCharts)
 library(shiny)
 library(dplyr)
