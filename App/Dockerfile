@@ -4,8 +4,6 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y build-essential libcurl4-gnutls-dev libxml2-dev libssl-dev
 
-#WORKDIR /Users/pchmielecki87/Git/R/App
-
 COPY requirements.r /home/App/requirements.r
 COPY app.r /home/App/app.r
 
