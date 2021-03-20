@@ -6,6 +6,7 @@ RUN apt-get update && \
 
 COPY requirements.r /home/App/requirements.r
 COPY app.r /home/App/app.r
+COPY healthexp.Rds /home/App/healthexp.Rds
 
 RUN Rscript /home/App/requirements.r
 RUN Rscript /home/App/app.r
