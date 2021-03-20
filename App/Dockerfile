@@ -1,8 +1,8 @@
 FROM r-base:latest
 
-WORKDIR /home/r-base
+WORKDIR /home/App
 
-COPY * ./
+COPY * ./home/App
 
-RUN npm install
-CMD ["npm", "start"]
+RUN Rscript /home/App/requirements.R
+RUN Rscript /home/App/app.R
