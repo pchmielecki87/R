@@ -1,8 +1,8 @@
 FROM r-base:latest
 
-WORKDIR /home/App
+WORKDIR /Users/pchmielecki87/Git/R/App
+COPY requirements.r /home/App/requirements.r
+COPY app.r /home/App/app.r
 
-COPY * ./home/App
-
-RUN Rscript /home/App/requirements.R
-RUN Rscript /home/App/app.R
+RUN Rscript /home/App/requirements.r
+RUN Rscript /home/App/app.r

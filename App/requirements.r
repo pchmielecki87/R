@@ -1,1 +1,5 @@
+install.packages("devtools")
+install.packages("googleCharts")
+install.packages("shiny")
+install.packages("dplyr")
 install.packages("rpostgres")
