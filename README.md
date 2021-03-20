@@ -1,2 +1,2 @@
-# Simple R apps
-# App based on https://github.com/rstudio/shiny-examples/blob/master/182-google-charts/healthexp.Rds
+Simple R apps
+App based on https://github.com/rstudio/shiny-examples/blob/master/182-google-charts/healthexp.Rds
