@@ -1,4 +1,4 @@
 .DS*
-*.pptx
+App/_arch/*
 App/terraform/_other/*
 App/terraform/modules/replica-postgresql/README.md

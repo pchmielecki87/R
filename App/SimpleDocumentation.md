@@ -23,4 +23,4 @@ $ Docker build .
 
 # Arch blueprint
 
-> Available on S3 Bucket [here](xxxx)
+> Available on S3 Bucket [here](https://techbrain-data-bucket.s3-eu-west-1.amazonaws.com/simple-R-example/simple-R-RDS-arch.png)
