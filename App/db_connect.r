@@ -8,8 +8,8 @@ pw<- {
 con <- dbConnect(RPostgres::Postgres()
      , host='localhost'
      , port='5432'
-     , dbname='DBname'
-     , user='user'
+     , dbname='postgres-db-rds'
+     , user='posgres'
      , password=pw)
 
 

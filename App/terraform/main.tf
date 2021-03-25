@@ -62,8 +62,8 @@ module "db_option_group" {
   tags = merge(var.tags, var.db_option_group_tags)
 }
 
-module "db_instance" {
-  source = "./modules/db_instance"
+module "replica-postgresql" {
+  source = "./modules/replica-postgresql"
 
   create     = var.create_db_instance
   identifier = var.identifier
