@@ -1,2 +1,4 @@
 .DS*
 *.pptx
+App/terraform/_other/*
+App/terraform/modules/postgres_db/README.md
