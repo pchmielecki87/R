@@ -9,7 +9,7 @@ con <- dbConnect(RPostgres::Postgres()
      , host='localhost'
      , port='5432'
      , dbname='postgres-db-rds'
-     , user='posgres'
+     , user='postgres'
      , password=pw)
 
 
