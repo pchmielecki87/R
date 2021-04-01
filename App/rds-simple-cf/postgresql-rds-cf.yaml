@@ -1,0 +1,61 @@
+Type: AWS::RDS::DBInstance
+Properties: 
+  AllocatedStorage: PostgreSQL
+  AllowMajorVersionUpgrade: yes
+  AssociatedRoles: 
+    - DBInstanceRole
+  AutoMinorVersionUpgrade: yes
+  AvailabilityZone: eu-west-1
+  BackupRetentionPeriod: 1
+  CACertificateIdentifier: String
+  CharacterSetName: String
+  CopyTagsToSnapshot: yes
+  DBClusterIdentifier: String
+  DBInstanceClass: String
+  DBInstanceIdentifier: String
+  DBName: String
+  DBParameterGroupName: String
+  DBSecurityGroups: 
+    - String
+  DBSnapshotIdentifier: String
+  DBSubnetGroupName: String
+  DeleteAutomatedBackups: Boolean
+  DeletionProtection: Boolean
+  Domain: String
+  DomainIAMRoleName: String
+  EnableCloudwatchLogsExports: 
+    - String
+  EnableIAMDatabaseAuthentication: Boolean
+  EnablePerformanceInsights: Boolean
+  Engine: String
+  EngineVersion: String
+  Iops: Integer
+  KmsKeyId: String
+  LicenseModel: String
+  MasterUsername: String
+  MasterUserPassword: String
+  MaxAllocatedStorage: Integer
+  MonitoringInterval: Integer
+  MonitoringRoleArn: String
+  MultiAZ: Boolean
+  OptionGroupName: String
+  PerformanceInsightsKMSKeyId: String
+  PerformanceInsightsRetentionPeriod: Integer
+  Port: String
+  PreferredBackupWindow: String
+  PreferredMaintenanceWindow: String
+  ProcessorFeatures: 
+    - ProcessorFeature
+  PromotionTier: Integer
+  PubliclyAccessible: Boolean
+  SourceDBInstanceIdentifier: String
+  SourceRegion: String
+  StorageEncrypted: Boolean
+  StorageType: String
+  Tags: 
+    - Tag
+  Timezone: String
+  UseDefaultProcessorFeatures: Boolean
+  VPCSecurityGroups: 
+    - String
+
